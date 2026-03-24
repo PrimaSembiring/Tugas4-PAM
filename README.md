@@ -53,7 +53,7 @@ Serta dilengkapi fitur:
 
 ---
 ## Struktur Folder
-
+```
 com.example.profileapp
 │
 ├── data/
@@ -75,6 +75,7 @@ com.example.profileapp
 │       └── EditProfileScreen.kt
 │
 └── MainActivity.kt
+```
 
 ---
 
