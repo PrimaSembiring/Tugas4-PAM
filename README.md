@@ -1,0 +1,84 @@
+# 📱 Tugas PAM 4 - Profile App (MVVM)
+
+---
+NAMA : PRIMA AGUSTA SEMBIRING
+NIM  : 123140119
+
+## Deskripsi Aplikasi
+
+Aplikasi **Profile App** ini merupakan pengembangan dari tugas sebelumnya dengan penerapan arsitektur **MVVM (Model-View-ViewModel)**.
+
+Aplikasi ini menampilkan informasi profil seperti:
+
+* Nama
+* Bio
+* Kontak
+* Skill
+
+Serta dilengkapi fitur:
+* Edit Profile
+* Dark Mode
+
+---
+
+## Fitur Utama
+
+### Implementasi MVVM
+
+* Menggunakan `ProfileViewModel`
+* State dikelola dengan **StateFlow**
+* UI State menggunakan `ProfileUiState` (data class)
+
+---
+
+### Edit Profile
+
+* Form edit:
+
+  * Nama
+  * Bio
+* Menggunakan **State Hoisting**
+* Tombol **Save** untuk update ViewModel
+
+---
+
+### Dark Mode
+
+* Toggle switch untuk:
+
+  * Dark Mode
+  * Light Mode
+* State disimpan di ViewModel
+* Tampilan berubah secara dinamis
+
+---
+
+## Screenshot
+
+### Profile View
+
+![Profile](profile.png)
+
+---
+
+### Edit Profile
+
+![Edit](edit.png)
+
+---
+
+### Dark Mode
+
+![Dark Mode](darkmode.png)
+
+---
+
+## Teknologi
+
+* Kotlin
+* Jetpack Compose
+* Material 3
+* MVVM Architecture
+* StateFlow
+
+
