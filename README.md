@@ -52,6 +52,31 @@ Serta dilengkapi fitur:
 * Tampilan berubah secara dinamis
 
 ---
+## Struktur Folder
+
+com.example.profileapp
+│
+├── data/
+│   └── ProfileUiState.kt
+│
+├── viewmodel/
+│   └── ProfileViewModel.kt
+│
+├── ui/
+│   ├── components/
+│   │   ├── ProfileSection.kt
+│   │   ├── ProfileButtons.kt
+│   │   ├── ContactCard.kt
+│   │   ├── SkillSection.kt
+│   │   └── MyTextField.kt
+│   │
+│   └── screen/
+│       ├── ProfileScreen.kt
+│       └── EditProfileScreen.kt
+│
+└── MainActivity.kt
+
+---
 
 ## Screenshot
 
